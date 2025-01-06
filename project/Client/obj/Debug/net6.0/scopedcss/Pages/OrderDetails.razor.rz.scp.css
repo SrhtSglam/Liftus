@@ -1,0 +1,25 @@
+.container[b-i1fkslayse] {
+    display: flex;
+    padding: 6px;
+}
+
+.image-wrapper[b-i1fkslayse] {
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-i1fkslayse] {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.name[b-i1fkslayse] {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.product-price[b-i1fkslayse] {
+    font-weight: 600;
+    text-align: right;
+}

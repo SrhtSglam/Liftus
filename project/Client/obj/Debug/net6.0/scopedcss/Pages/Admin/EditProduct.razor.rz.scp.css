@@ -1,0 +1,26 @@
+img[b-t4usb22i1i] {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.row[b-t4usb22i1i] {
+    display: flex;
+    padding: 6px;
+}
+
+.col[b-t4usb22i1i] {
+    flex: 1;
+}
+
+.header[b-t4usb22i1i] {
+    display: flex;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+
+.col-visible[b-t4usb22i1i] {
+    text-align: center;
+}

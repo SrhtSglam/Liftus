@@ -8,6 +8,7 @@ namespace project.Client.Services.CategoryService
         List<Category> Categories { get; set; }
         List<Category> AdminCategories { get; set; }
         Task GetCategories();
+        Task GetSubCategoriesWithCategory();
         Task GetAdminCategories();
         Task AddCategory(Category category);
         Task UpdateCategory(Category category);

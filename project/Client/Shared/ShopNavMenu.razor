@@ -1,4 +1,5 @@
 ﻿@inject ICategoryService CategoryService
+@inject ISubCategoryService SubCategoryService
 @implements IDisposable
 
 <div class="top-row ps-3 navbar navbar-dark navbar-toggler-wrapper">
@@ -26,7 +27,7 @@
                     </NavLink>
                     @foreach (var category in CategoryService.Categories)
                     {
-                        <NavLink class="nav-link" href="@category.Url">
+                        <NavLink style="font-size: 14px;" class="nav-link" href="@category.Url">
                             @category.Name
                         </NavLink>
                     }
@@ -42,19 +43,20 @@
                         <span class="sr-only"></span>
                     </a>
                     <div class="dropdown-menu" style="background-color: #404040;" aria-labelledby="dropdownMenu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        @* @foreach(var subcategory in SubCategoryService.SubCategories){
+                            <a class="dropdown-item" href="#">@subcategory.Name</a>
+                        } *@
+                        @if(category.SubCategories != null){
+                            foreach(var item in category.SubCategories){
+                                <a class="dropdown-item" href="@item.Url">@item.Name</a>
+                            }
+                        }
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                 </div>
             </div>
         }
-        @* <HomeButton /> *@
-            @* <Search />
-            <UserButton />
-            <CartCounter /> *@
     </nav>
 </div>
 
@@ -71,11 +73,14 @@
     protected override async Task OnInitializedAsync()
     {
         await CategoryService.GetCategories();
+        await SubCategoryService.GetSubCategories();
         CategoryService.OnChange += StateHasChanged;
+        SubCategoryService.OnChange += StateHasChanged;
     }
 
     public void Dispose()
     {
         CategoryService.OnChange -= StateHasChanged;
+        SubCategoryService.OnChange -= StateHasChanged;
     }
 }

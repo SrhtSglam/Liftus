@@ -22,6 +22,13 @@ namespace project.Server.Controllers
             return Ok(result);
         }
 
+        [HttpGet("subcategories")]
+        public async Task<ActionResult<ServiceResponse<List<Category>>>> GetSubCategoriesWithCategory()
+        {
+            var result = await _categoryService.GetSubCategoriesWithCategory();
+            return Ok(result);
+        }
+
         [HttpGet("admin"), Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<List<Category>>>> GetAdminCategories()
         {

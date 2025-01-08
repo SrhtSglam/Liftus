@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jwpNBNnC8TWI28a7Ma7IASNXmtPvzbULO5DOuNPWa0g=",
+  "Hash": "vutUA88QxsgtdhRvDECImSE4F/pbHqPXPal/ZzVTpGE=",
   "Source": "project.Server",
   "BasePath": "_content/project.Server",
   "Mode": "Default",
@@ -1366,8 +1366,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "3v5dj5yllq",
-      "Integrity": "7+Xdm5pjnBwhKBcGK0fctTsqbazHboFLBgmnscgzv6M=",
+      "Fingerprint": "ufmnewe2zp",
+      "Integrity": "Wn8iuAOK5GcsAInzIu+3+pwnW6NoY8j/vcb2mc7XLHA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -2878,8 +2878,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "w7fkveg354",
-      "Integrity": "9D6x8T+5CinF348htA09vTMLF2+Ll3hp5c0mbkJ7g0s=",
+      "Fingerprint": "p8ntxivbh9",
+      "Integrity": "6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Client.dll"
@@ -2899,8 +2899,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "vj031a355d",
-      "Integrity": "dWH8TzoGpGvaDa4MbF7a5TWEHpW9haemRzbI49nGzYM=",
+      "Fingerprint": "5r097ct34h",
+      "Integrity": "ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Client.pdb"
@@ -2920,8 +2920,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "yry8543tla",
-      "Integrity": "8nhXylyDAovXy1Kh2j77isw+gZ5uW9EII6PCauv8d/o=",
+      "Fingerprint": "10ckq5mzb3",
+      "Integrity": "wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Shared.dll"
@@ -2941,8 +2941,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "yt6kbvxmul",
-      "Integrity": "lra+Bmzmr+o0fca4QSBwia7Mx6OK3TCFjeU56Nnh7/0=",
+      "Fingerprint": "e6pi1l5ezd",
+      "Integrity": "9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Shared.pdb"
@@ -6791,7 +6791,7 @@
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0efwzm8jpq-kcyunzym0h.gz"
     },
     {
-      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-w7fkveg354.gz",
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-p8ntxivbh9.gz",
       "SourceId": "project.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\",
@@ -6805,11 +6805,11 @@
       "RelatedAsset": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Client.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qsnuoilq85",
-      "Integrity": "Brz4txFkUbvk/zIbyFmMoPoTJOY9xQr6m+HaxBK/qRA=",
+      "Fingerprint": "ejahs5zui3",
+      "Integrity": "ZjAosYEtmMGv8sOu36hPUbKNeR5UHQNnuPPWgNkB814=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-w7fkveg354.gz"
+      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-p8ntxivbh9.gz"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0j4zrzhvft-sfu9mvi8ei.gz",
@@ -7673,7 +7673,7 @@
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6hzm8cbzq9-fd1txmqryi.gz"
     },
     {
-      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-vj031a355d.gz",
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-5r097ct34h.gz",
       "SourceId": "project.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\",
@@ -7687,11 +7687,11 @@
       "RelatedAsset": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0l1t20qaff",
-      "Integrity": "RA+plrWTOfRDTZ4GQP6QDuQanAtAzHTGHkSaxvPGjJU=",
+      "Fingerprint": "yjdg5c3fhy",
+      "Integrity": "YpK4T48L2xagr1KVCWDneYLUAgeatTmiw9CNr8Tqat8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-vj031a355d.gz"
+      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-5r097ct34h.gz"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6pb3pgu9g6-6lpxex4slg.gz",
@@ -8114,7 +8114,7 @@
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9o08hx0bnj-cb187lrfmv.gz"
     },
     {
-      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-3v5dj5yllq.gz",
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-ufmnewe2zp.gz",
       "SourceId": "project.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\",
@@ -8128,11 +8128,11 @@
       "RelatedAsset": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qsbqgrp8we",
-      "Integrity": "xlWhJBDsbwXqyRxbaTP/GQ5hQ81UxmRtSjbI5H4A6VU=",
+      "Fingerprint": "b0cbc0zabp",
+      "Integrity": "i02ow+w8gto5r1V8BUh7LwndSXD8BVQf9Wbh40E//yE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-3v5dj5yllq.gz"
+      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-ufmnewe2zp.gz"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9x386fhlf7-31ayzhzqhv.gz",
@@ -11537,7 +11537,7 @@
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vx0hwuhkjk-vpilnimp4x.gz"
     },
     {
-      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-yry8543tla.gz",
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-10ckq5mzb3.gz",
       "SourceId": "project.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\",
@@ -11551,11 +11551,11 @@
       "RelatedAsset": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Shared.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "h5hl2phr0l",
-      "Integrity": "FWChMdkOMNhKcQ8jbABDp1SN38EU1KAWfv7hPzFAjFc=",
+      "Fingerprint": "l5yotk9fol",
+      "Integrity": "6R+nRIqfHlkVUirpfTV08z3A6n4NBsA9TJk5KZguz3c=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-yry8543tla.gz"
+      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-10ckq5mzb3.gz"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\w1sh53ucht-yetoyv5zqo.gz",
@@ -11915,7 +11915,7 @@
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\yfs6o7slay-se2q2taevy.gz"
     },
     {
-      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-yt6kbvxmul.gz",
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-e6pi1l5ezd.gz",
       "SourceId": "project.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\",
@@ -11929,11 +11929,11 @@
       "RelatedAsset": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\project.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4o8aq5y7ao",
-      "Integrity": "nEcLDFMLWlzsPP7h8gx/91jKK1Rfyuh7otVvlLwlRyc=",
+      "Fingerprint": "vptgu2f5zk",
+      "Integrity": "ja/x4SK8osWV4astzVIgvhqmb2KbMGchjwOl+gyXZSE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-yt6kbvxmul.gz"
+      "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-e6pi1l5ezd.gz"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ywrnx1bbpj-fdlxtopbh3.gz",
@@ -12013,8 +12013,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "yvo4di3vnm",
-      "Integrity": "/vtVc78nHCRS/C4GZesrqj7A0JIT6XVD9/pRnSp5pQ0=",
+      "Fingerprint": "sq8danockl",
+      "Integrity": "hPMKm5ViD/E17wK+f6zmdwT55seDFQ5uSd0zR11Hrng=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker-assets.js.build"
@@ -12034,8 +12034,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "pvvxf7z5tr",
-      "Integrity": "pXpSxjlcUs4gCA7HlSM5MQF8gvO1QAAqAGBJkMps3A0=",
+      "Fingerprint": "l2oyddf4lz",
+      "Integrity": "o+Bz0FcO4Vi5ZIZrJbsuKZ7MoPjYqvfLtkKsobLyZXY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.js.build"
@@ -13930,28 +13930,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7+Xdm5pjnBwhKBcGK0fctTsqbazHboFLBgmnscgzv6M=\""
+          "Value": "\"Wn8iuAOK5GcsAInzIu+3+pwnW6NoY8j/vcb2mc7XLHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:25:22 GMT"
+          "Value": "Wed, 08 Jan 2025 10:28:11 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7+Xdm5pjnBwhKBcGK0fctTsqbazHboFLBgmnscgzv6M="
+          "Value": "sha256-Wn8iuAOK5GcsAInzIu+3+pwnW6NoY8j/vcb2mc7XLHA="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-3v5dj5yllq.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-ufmnewe2zp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000090826521"
+          "Quality": "0.000090843023"
         }
       ],
       "ResponseHeaders": [
@@ -13969,15 +13969,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11009"
+          "Value": "11007"
         },
         {
           "Name": "ETag",
-          "Value": "\"xlWhJBDsbwXqyRxbaTP/GQ5hQ81UxmRtSjbI5H4A6VU=\""
+          "Value": "\"i02ow+w8gto5r1V8BUh7LwndSXD8BVQf9Wbh40E//yE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:24:38 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         },
         {
           "Name": "Vary",
@@ -13989,19 +13989,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7+Xdm5pjnBwhKBcGK0fctTsqbazHboFLBgmnscgzv6M=\""
+          "Value": "W/\"Wn8iuAOK5GcsAInzIu+3+pwnW6NoY8j/vcb2mc7XLHA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7+Xdm5pjnBwhKBcGK0fctTsqbazHboFLBgmnscgzv6M="
+          "Value": "sha256-Wn8iuAOK5GcsAInzIu+3+pwnW6NoY8j/vcb2mc7XLHA="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-3v5dj5yllq.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\9vhgc0c3qm-ufmnewe2zp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14018,7 +14018,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11009"
+          "Value": "11007"
         },
         {
           "Name": "Content-Type",
@@ -14026,11 +14026,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlWhJBDsbwXqyRxbaTP/GQ5hQ81UxmRtSjbI5H4A6VU=\""
+          "Value": "\"i02ow+w8gto5r1V8BUh7LwndSXD8BVQf9Wbh40E//yE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:24:38 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         },
         {
           "Name": "Vary",
@@ -14040,7 +14040,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xlWhJBDsbwXqyRxbaTP/GQ5hQ81UxmRtSjbI5H4A6VU="
+          "Value": "sha256-i02ow+w8gto5r1V8BUh7LwndSXD8BVQf9Wbh40E//yE="
         }
       ]
     },
@@ -23786,7 +23786,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "167936"
+          "Value": "172032"
         },
         {
           "Name": "Content-Type",
@@ -23794,28 +23794,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9D6x8T+5CinF348htA09vTMLF2+Ll3hp5c0mbkJ7g0s=\""
+          "Value": "\"6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:25:22 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9D6x8T+5CinF348htA09vTMLF2+Ll3hp5c0mbkJ7g0s="
+          "Value": "sha256-6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k="
         }
       ]
     },
     {
       "Route": "_framework/project.Client.dll",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-w7fkveg354.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-p8ntxivbh9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000016473922"
+          "Quality": "0.000016089069"
         }
       ],
       "ResponseHeaders": [
@@ -23833,15 +23833,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60701"
+          "Value": "62153"
         },
         {
           "Name": "ETag",
-          "Value": "\"Brz4txFkUbvk/zIbyFmMoPoTJOY9xQr6m+HaxBK/qRA=\""
+          "Value": "\"ZjAosYEtmMGv8sOu36hPUbKNeR5UHQNnuPPWgNkB814=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:24:38 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         },
         {
           "Name": "Vary",
@@ -23853,19 +23853,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9D6x8T+5CinF348htA09vTMLF2+Ll3hp5c0mbkJ7g0s=\""
+          "Value": "W/\"6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9D6x8T+5CinF348htA09vTMLF2+Ll3hp5c0mbkJ7g0s="
+          "Value": "sha256-6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k="
         }
       ]
     },
     {
       "Route": "_framework/project.Client.dll.gz",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-w7fkveg354.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\0g492jm0hl-p8ntxivbh9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23882,7 +23882,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60701"
+          "Value": "62153"
         },
         {
           "Name": "Content-Type",
@@ -23890,11 +23890,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Brz4txFkUbvk/zIbyFmMoPoTJOY9xQr6m+HaxBK/qRA=\""
+          "Value": "\"ZjAosYEtmMGv8sOu36hPUbKNeR5UHQNnuPPWgNkB814=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:24:38 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         },
         {
           "Name": "Vary",
@@ -23904,7 +23904,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Brz4txFkUbvk/zIbyFmMoPoTJOY9xQr6m+HaxBK/qRA="
+          "Value": "sha256-ZjAosYEtmMGv8sOu36hPUbKNeR5UHQNnuPPWgNkB814="
         }
       ]
     },
@@ -23923,7 +23923,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "116744"
+          "Value": "118016"
         },
         {
           "Name": "Content-Type",
@@ -23931,28 +23931,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dWH8TzoGpGvaDa4MbF7a5TWEHpW9haemRzbI49nGzYM=\""
+          "Value": "\"ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:25:22 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dWH8TzoGpGvaDa4MbF7a5TWEHpW9haemRzbI49nGzYM="
+          "Value": "sha256-ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c="
         }
       ]
     },
     {
       "Route": "_framework/project.Client.pdb",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-vj031a355d.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-5r097ct34h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000011149142"
+          "Quality": "0.000011061213"
         }
       ],
       "ResponseHeaders": [
@@ -23970,15 +23970,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89692"
+          "Value": "90405"
         },
         {
           "Name": "ETag",
-          "Value": "\"RA+plrWTOfRDTZ4GQP6QDuQanAtAzHTGHkSaxvPGjJU=\""
+          "Value": "\"YpK4T48L2xagr1KVCWDneYLUAgeatTmiw9CNr8Tqat8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:24:38 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         },
         {
           "Name": "Vary",
@@ -23990,19 +23990,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dWH8TzoGpGvaDa4MbF7a5TWEHpW9haemRzbI49nGzYM=\""
+          "Value": "W/\"ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dWH8TzoGpGvaDa4MbF7a5TWEHpW9haemRzbI49nGzYM="
+          "Value": "sha256-ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c="
         }
       ]
     },
     {
       "Route": "_framework/project.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-vj031a355d.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\6nmqislp1v-5r097ct34h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24019,7 +24019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89692"
+          "Value": "90405"
         },
         {
           "Name": "Content-Type",
@@ -24027,11 +24027,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RA+plrWTOfRDTZ4GQP6QDuQanAtAzHTGHkSaxvPGjJU=\""
+          "Value": "\"YpK4T48L2xagr1KVCWDneYLUAgeatTmiw9CNr8Tqat8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:24:38 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         },
         {
           "Name": "Vary",
@@ -24041,7 +24041,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RA+plrWTOfRDTZ4GQP6QDuQanAtAzHTGHkSaxvPGjJU="
+          "Value": "sha256-YpK4T48L2xagr1KVCWDneYLUAgeatTmiw9CNr8Tqat8="
         }
       ]
     },
@@ -24060,7 +24060,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20992"
+          "Value": "22016"
         },
         {
           "Name": "Content-Type",
@@ -24068,28 +24068,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8nhXylyDAovXy1Kh2j77isw+gZ5uW9EII6PCauv8d/o=\""
+          "Value": "\"wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 11:40:18 GMT"
+          "Value": "Wed, 08 Jan 2025 08:51:17 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8nhXylyDAovXy1Kh2j77isw+gZ5uW9EII6PCauv8d/o="
+          "Value": "sha256-wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps="
         }
       ]
     },
     {
       "Route": "_framework/project.Shared.dll",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-yry8543tla.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-10ckq5mzb3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000120569086"
+          "Quality": "0.000115207373"
         }
       ],
       "ResponseHeaders": [
@@ -24107,15 +24107,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8293"
+          "Value": "8679"
         },
         {
           "Name": "ETag",
-          "Value": "\"FWChMdkOMNhKcQ8jbABDp1SN38EU1KAWfv7hPzFAjFc=\""
+          "Value": "\"6R+nRIqfHlkVUirpfTV08z3A6n4NBsA9TJk5KZguz3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 11:40:18 GMT"
+          "Value": "Wed, 08 Jan 2025 08:51:17 GMT"
         },
         {
           "Name": "Vary",
@@ -24127,19 +24127,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8nhXylyDAovXy1Kh2j77isw+gZ5uW9EII6PCauv8d/o=\""
+          "Value": "W/\"wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8nhXylyDAovXy1Kh2j77isw+gZ5uW9EII6PCauv8d/o="
+          "Value": "sha256-wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps="
         }
       ]
     },
     {
       "Route": "_framework/project.Shared.dll.gz",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-yry8543tla.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\vzaunjuown-10ckq5mzb3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24156,7 +24156,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8293"
+          "Value": "8679"
         },
         {
           "Name": "Content-Type",
@@ -24164,11 +24164,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FWChMdkOMNhKcQ8jbABDp1SN38EU1KAWfv7hPzFAjFc=\""
+          "Value": "\"6R+nRIqfHlkVUirpfTV08z3A6n4NBsA9TJk5KZguz3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 11:40:18 GMT"
+          "Value": "Wed, 08 Jan 2025 08:51:17 GMT"
         },
         {
           "Name": "Vary",
@@ -24178,7 +24178,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FWChMdkOMNhKcQ8jbABDp1SN38EU1KAWfv7hPzFAjFc="
+          "Value": "sha256-6R+nRIqfHlkVUirpfTV08z3A6n4NBsA9TJk5KZguz3c="
         }
       ]
     },
@@ -24197,7 +24197,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17872"
+          "Value": "18420"
         },
         {
           "Name": "Content-Type",
@@ -24205,28 +24205,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lra+Bmzmr+o0fca4QSBwia7Mx6OK3TCFjeU56Nnh7/0=\""
+          "Value": "\"9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 11:40:18 GMT"
+          "Value": "Wed, 08 Jan 2025 08:51:17 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lra+Bmzmr+o0fca4QSBwia7Mx6OK3TCFjeU56Nnh7/0="
+          "Value": "sha256-9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490="
         }
       ]
     },
     {
       "Route": "_framework/project.Shared.pdb",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-yt6kbvxmul.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-e6pi1l5ezd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000107135205"
+          "Quality": "0.000104558762"
         }
       ],
       "ResponseHeaders": [
@@ -24244,15 +24244,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9333"
+          "Value": "9563"
         },
         {
           "Name": "ETag",
-          "Value": "\"nEcLDFMLWlzsPP7h8gx/91jKK1Rfyuh7otVvlLwlRyc=\""
+          "Value": "\"ja/x4SK8osWV4astzVIgvhqmb2KbMGchjwOl+gyXZSE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 11:40:18 GMT"
+          "Value": "Wed, 08 Jan 2025 08:51:17 GMT"
         },
         {
           "Name": "Vary",
@@ -24264,19 +24264,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lra+Bmzmr+o0fca4QSBwia7Mx6OK3TCFjeU56Nnh7/0=\""
+          "Value": "W/\"9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lra+Bmzmr+o0fca4QSBwia7Mx6OK3TCFjeU56Nnh7/0="
+          "Value": "sha256-9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490="
         }
       ]
     },
     {
       "Route": "_framework/project.Shared.pdb.gz",
-      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-yt6kbvxmul.gz",
+      "AssetFile": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\compressed\\ykzlg2bbmp-e6pi1l5ezd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24293,7 +24293,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9333"
+          "Value": "9563"
         },
         {
           "Name": "Content-Type",
@@ -24301,11 +24301,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nEcLDFMLWlzsPP7h8gx/91jKK1Rfyuh7otVvlLwlRyc=\""
+          "Value": "\"ja/x4SK8osWV4astzVIgvhqmb2KbMGchjwOl+gyXZSE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 11:40:18 GMT"
+          "Value": "Wed, 08 Jan 2025 08:51:17 GMT"
         },
         {
           "Name": "Vary",
@@ -24315,7 +24315,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nEcLDFMLWlzsPP7h8gx/91jKK1Rfyuh7otVvlLwlRyc="
+          "Value": "sha256-ja/x4SK8osWV4astzVIgvhqmb2KbMGchjwOl+gyXZSE="
         }
       ]
     },
@@ -56824,17 +56824,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/vtVc78nHCRS/C4GZesrqj7A0JIT6XVD9/pRnSp5pQ0=\""
+          "Value": "\"hPMKm5ViD/E17wK+f6zmdwT55seDFQ5uSd0zR11Hrng=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 10:25:22 GMT"
+          "Value": "Wed, 08 Jan 2025 10:22:43 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/vtVc78nHCRS/C4GZesrqj7A0JIT6XVD9/pRnSp5pQ0="
+          "Value": "sha256-hPMKm5ViD/E17wK+f6zmdwT55seDFQ5uSd0zR11Hrng="
         }
       ]
     },
@@ -56861,7 +56861,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pXpSxjlcUs4gCA7HlSM5MQF8gvO1QAAqAGBJkMps3A0=\""
+          "Value": "\"o+Bz0FcO4Vi5ZIZrJbsuKZ7MoPjYqvfLtkKsobLyZXY=\""
         },
         {
           "Name": "Last-Modified",
@@ -56871,7 +56871,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pXpSxjlcUs4gCA7HlSM5MQF8gvO1QAAqAGBJkMps3A0="
+          "Value": "sha256-o+Bz0FcO4Vi5ZIZrJbsuKZ7MoPjYqvfLtkKsobLyZXY="
         }
       ]
     }

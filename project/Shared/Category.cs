@@ -13,5 +13,8 @@ namespace project.Shared
         public bool Editing { get; set; } = false;
         [NotMapped]
         public bool IsNew { get; set; } = false;
+
+        // public List<CategoryCategories> CategoryCategories {get; set;}
+        public List<SubCategory> SubCategories {get; set;}
     }
 }

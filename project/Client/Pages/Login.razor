@@ -7,24 +7,41 @@
 @inject ICartService CartService
 @using Microsoft.AspNetCore.WebUtilities
 
+<style>
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 20vh;
+        margin: 0;
+    }
+</style>
+
 <PageTitle>Login</PageTitle>
 
 <h3>Login</h3>
+<div class="main">
+    <EditForm Model="user" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+        <div class="mb-3">
+            <label for="email" class="sr-only">Email</label>
+            <InputText id="email" @bind-Value="user.Email" class="form-control" />
+            <ValidationMessage For="@(() => user.Email)" />
+        </div>
+        <div class="mb-3">
+            <label for="password" class="sr-only">Password</label>
+            <InputText id="password" @bind-Value="user.Password" class="form-control" type="password" />
+            <ValidationMessage For="@(() => user.Password)" />
+        </div>
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+    </EditForm>
+</div>
 
-<EditForm Model="user" OnValidSubmit="HandleLogin">
-    <DataAnnotationsValidator />
-    <div class="mb-3">
-        <label for="email">Email</label>
-        <InputText id="email" @bind-Value="user.Email" class="form-control" />
-        <ValidationMessage For="@(() => user.Email)" />
-    </div>
-    <div class="mb-3">
-        <label for="password">Password</label>
-        <InputText id="password" @bind-Value="user.Password" class="form-control" type="password" />
-        <ValidationMessage For="@(() => user.Password)" />
-    </div>
-    <button type="submit" class="btn btn-primary">Login</button>
-</EditForm>
 <div class="text-danger">
     <span>@errorMessage</span>
 </div>

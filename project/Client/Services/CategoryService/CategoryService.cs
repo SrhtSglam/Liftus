@@ -57,6 +57,13 @@ namespace project.Client.Services.CategoryService
                 Categories = response.Data;
         }
 
+        public async Task GetSubCategoriesWithCategory()
+        {
+            var response = await _http.GetFromJsonAsync<ServiceResponse<List<Category>>>("api/Category/subcategories");
+            if (response != null && response.Data != null)
+                Categories = response.Data;
+        }
+
         public async Task UpdateCategory(Category category)
         {
             var response = await _http.PutAsJsonAsync("api/Category/admin", category);

@@ -18,6 +18,9 @@ namespace project.Server.Data
             modelBuilder.Entity<ProductVariant>()
                 .HasKey(p => new { p.ProductId, p.ProductTypeId });
 
+            // modelBuilder.Entity<CategoryCategories>()
+            //     .HasNoKey();
+
             modelBuilder.Entity<OrderItem>()
                 .HasKey(oi => new { oi.OrderId, oi.ProductId, oi.ProductTypeId });
 
@@ -51,6 +54,27 @@ namespace project.Server.Data
                 {
                     Id = 3,
                     Name = "Video Games",
+                    Url = "video-games"
+                }
+                );
+
+            modelBuilder.Entity<SubCategory>().HasData(
+                new SubCategory
+                {
+                    Id = 1,
+                    Name = "tEST",
+                    Url = "books"
+                },
+                new SubCategory
+                {
+                    Id = 2,
+                    Name = "TEST",
+                    Url = "movies"
+                },
+                new SubCategory
+                {
+                    Id = 3,
+                    Name = "TEST",
                     Url = "video-games"
                 }
                 );
@@ -266,7 +290,9 @@ namespace project.Server.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        // public DbSet<CategoryCategories> CategoryCategories { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }
         public DbSet<ProductVariant> ProductVariants { get; set; }
         public DbSet<User> Users { get; set; }

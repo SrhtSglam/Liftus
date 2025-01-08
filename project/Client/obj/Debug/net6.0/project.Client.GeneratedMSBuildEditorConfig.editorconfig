@@ -13,145 +13,145 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = project.Client
 build_property.RootNamespace = project.Client
-build_property.ProjectDir = C:\Users\stj067\Documents\GitHub\Liftus\project\Client\
+build_property.ProjectDir = C:\Users\serha\Documents\GitHub\Liftus\project\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\stj067\Documents\GitHub\Liftus\project\Client
+build_property.MSBuildProjectDirectory = C:\Users\serha\Documents\GitHub\Liftus\project\Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/App.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Authentication.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Authentication.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Counter.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/FetchData.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Index.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Login.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/OrderSuccess.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/OrderSuccess.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJTdWNjZXNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Profile.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Register.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/AddressForm.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/AddressForm.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkZHJlc3NGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/CartCounter.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/CartCounter.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/LoginDisplay.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/RedirectToLogin.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/Search.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/Search.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/SurveyPrompt.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/_Imports.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/Categories.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Admin/Categories.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-wuab6ztqyz
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/EditProduct.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Admin/EditProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t4usb22i1i
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/Products.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Admin/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rp510ou27f
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/ProductTypes.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Admin/ProductTypes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFR5cGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-o3cammc5ip
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Cart.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-mysn1lpeih
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/OrderDetails.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/OrderDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-i1fkslayse
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Orders.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/Orders.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-eqxdlmvvyf
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/ProductDetails.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c8vze21v6j
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/AdminMenu.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/AdminMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-b8gvk867gn
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/FeaturedProducts.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/FeaturedProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZlYXR1cmVkUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1sdh3ixoa4
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/HomeButton.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/HomeButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhvbWVCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5v63wt363r
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/MainLayout.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-bcpm51xteg
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/NavMenu.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-i6p53r8hky
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/ProductList.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/ProductList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-6cl0fcoei5
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/ShopLayout.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/ShopLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3BMYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-gre14rd617
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/ShopNavMenu.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/ShopNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3BOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-8tu0oft8iy
 
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/UserButton.razor]
+[C:/Users/serha/Documents/GitHub/Liftus/project/Client/Shared/UserButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFVzZXJCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c645f87ls0

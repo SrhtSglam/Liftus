@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "VtW5n2K/",
+  "version": "9SqoI3SH",
   "assets": [
     {
       "hash": "sha256-lPRUpys3LPkKKqrdBAT+ICY6Eibuk0AM8IjnfwAAZkQ=",
@@ -922,7 +922,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.dll"
     },
     {
-      "hash": "sha256-Wn8iuAOK5GcsAInzIu+3+pwnW6NoY8j/vcb2mc7XLHA=",
+      "hash": "sha256-dwdbNwuuHaLJcSIFjLq/XmyDQmOzgVGPQ2EDffA2T7M=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -990,19 +990,19 @@ self.assetsManifest = {
       "url": "_framework/netstandard.dll"
     },
     {
-      "hash": "sha256-6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k=",
+      "hash": "sha256-TYYM3E6bA/AiJrFh3nmwYFzrzeQsnCR2rOfzAvCByjA=",
       "url": "_framework/project.Client.dll"
     },
     {
-      "hash": "sha256-ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c=",
+      "hash": "sha256-DsRHURXKmMvDfoE1lmNvw2LCZu9wVbz8jNaKoi5QCnI=",
       "url": "_framework/project.Client.pdb"
     },
     {
-      "hash": "sha256-wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps=",
+      "hash": "sha256-y7gjxs1g0wEA6oo5dmGs2MKuzJwW5gg+mt68nQUblZo=",
       "url": "_framework/project.Shared.dll"
     },
     {
-      "hash": "sha256-9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490=",
+      "hash": "sha256-o4qOLqFthvi0yAc9o3H+4n3Iv6mmoiU83YGNE02fHt0=",
       "url": "_framework/project.Shared.pdb"
     },
     {
@@ -1026,7 +1026,7 @@ self.assetsManifest = {
       "url": "css/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "url": "css/bootstrap/bootstrap.min.css"
     },
     {

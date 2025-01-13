@@ -46,6 +46,9 @@
 .flex-nav[b-8tu0oft8iy] {
     flex-direction: column;
 }
+.cart-counter-wrapper[b-8tu0oft8iy] {
+    margin-left: auto; /* CartCounter'ı sağa yaslar */
+}
 
 @media (min-width: 641px) {
     .navbar-toggler[b-8tu0oft8iy], .navbar-toggler-wrapper[b-8tu0oft8iy] {

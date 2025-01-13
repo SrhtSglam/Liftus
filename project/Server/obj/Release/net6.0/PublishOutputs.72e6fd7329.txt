@@ -7,7 +7,6 @@ C:\Publish\Liftus\BlazorDebugProxy\BrowserDebugProxy.dll
 C:\Publish\Liftus\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
 C:\Publish\Liftus\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
 C:\Publish\Liftus\BlazorDebugProxy\Newtonsoft.Json.dll
-C:\Publish\Liftus\app.db
 C:\Publish\Liftus\project.Server.dll
 C:\Publish\Liftus\project.Server.deps.json
 C:\Publish\Liftus\project.Server.runtimeconfig.json

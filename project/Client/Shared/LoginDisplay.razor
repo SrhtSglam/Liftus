@@ -4,7 +4,7 @@
 @inject NavigationManager Navigation
 @inject SignOutSessionStateManager SignOutManager
 
-<AuthorizeView>
+@* <AuthorizeView>
     <Authorized>
         <a href="authentication/profile">Hello, @context.User.Identity?.Name!</a>
         <button class="nav-link btn btn-link" @onclick="BeginSignOut">Log out</button>
@@ -12,6 +12,19 @@
     <NotAuthorized>
         <a href="authentication/register">Register</a>
         <a href="authentication/login">Log in</a>
+    </NotAuthorized>
+</AuthorizeView> *@
+
+<AuthorizeView>
+    <Authorized>
+        <a href="authentication/profile" class="dropdown-item">Profile</a>
+        <a class="dropdown-item" @onclick="BeginSignOut">Log out</a>
+        @* <a href="orders" class="dropdown-item">Orders</a> *@
+        <hr />
+    </Authorized>
+    <NotAuthorized>
+        <a href="authentication/login" class="dropdown-item">Login</a>
+        <a href="authentication/register" class="dropdown-item">Register</a>
     </NotAuthorized>
 </AuthorizeView>
 

@@ -1,3 +1,5 @@
+@import '_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css';
+
 /* /Pages/Admin/Categories.razor.rz.scp.css */
 .header[b-wuab6ztqyz] {
     display: flex;
@@ -192,6 +194,51 @@ img[b-rp510ou27f] {
         height: auto;
     }
 }
+/* /Pages/Profile.razor.rz.scp.css */
+/* body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+} */
 /* /Shared/AdminMenu.razor.rz.scp.css */
 .top-row a[b-b8gvk867gn] {
     margin-left: 0 !important;

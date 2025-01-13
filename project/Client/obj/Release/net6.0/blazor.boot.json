@@ -1,7 +1,7 @@
 {
   "entryAssembly": "project.Client",
   "resources": {
-    "hash": "sha256-5Px1E0Z11WipKVNOuC0YNHQ3oqvnaQotZelbeu/4J5U=",
+    "hash": "sha256-28eY1c8GXJpOIeGR9pxUUH23qtbgcmTIstUAnoQuzv0=",
     "runtime": {
       "dotnet.js": "sha256-pu7MO47B6So4jcW6iY2UI11lBZYz2EQnJKiYNsOpNJg=",
       "dotnet.timezones.blat": "sha256-vrFYQt55a4tGoDGoyRfjjGa1nSecx646RK78iTzPWCM=",
@@ -25,6 +25,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-liLgwOvI/VvmoBW5qcnk9loKC+DZF0a716Sc+iac7PU=",
       "Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": "sha256-YmEBGRISnmRooEKOs3LaVxMcA2GsYouWwia5/JCY/oQ=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-xoAr2THI0zNnHO5nuEgtquJSMihtVewWRActBhEvcNA=",
+      "Microsoft.AspNetCore.WebUtilities.dll": "sha256-D5akJeBd7NNITuzAXxlX7zl2jfsc4uTKyeEKwwNhqoo=",
       "Microsoft.Bcl.AsyncInterfaces.dll": "sha256-EcDo/GQZkQrOT1Xd0jMPE3NwT5lsMq5DNsPxHVidLDQ=",
       "Microsoft.Data.SqlClient.dll": "sha256-LPW7eubZiXWWbD/EfYYzwwSN++oAzJ0ulSw8zzc5Blw=",
       "Microsoft.EntityFramework.SqlServer.dll": "sha256-UCe/Bs31htWpcz75cID9WzW8FCUNKJJ4l2uHQkhOp4U=",
@@ -59,6 +60,7 @@
       "Microsoft.IdentityModel.Tokens.dll": "sha256-kp3RX0pYkw8h7J65VgB3U0juY6BZ9lR6dIYH7edSGkw=",
       "Microsoft.JSInterop.dll": "sha256-bS1E08XRFELdYR8T2E1bcBdd03opAJ4Dkc3qe97ivEE=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-ZIwVPJiSH+pdbCmiEewK8+4BJAtCNZds811bDoQUrzg=",
+      "Microsoft.Net.Http.Headers.dll": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
       "Microsoft.SqlServer.Server.dll": "sha256-qdyhtCvIdflmt4ssCIDmK4OPDtZWcWbX8fB65LduxL8=",
       "Microsoft.SqlServer.Types.dll": "sha256-tGPsJulAi3F16FfRfFR44Q9kCbXn8NTZ5Gf3hq05keM=",
       "Microsoft.Win32.SystemEvents.dll": "sha256-yklb9shrfwktYkkoEBmFqUFTLRSdzYrP6hcPilO+iFA=",
@@ -241,12 +243,12 @@
       "mscorlib.dll": "sha256-FHccFgM8rcGOQ8oacA4eEgiiOynHayVKyd2ICq3Bo4w=",
       "netstandard.dll": "sha256-D91viTBgwuzeuIOx1KgBYnoY0hl2IpcBu/zr22Fu0BU=",
       "System.Private.CoreLib.dll": "sha256-5FbWgChEgLPlYByi8VsHTisbCpgMNSbf95JK5dVOs50=",
-      "project.Shared.dll": "sha256-j6o4+ITVGjjgqvGSOfGJQv5Oj06uRBuov0QI8OpWFJM=",
-      "project.Client.dll": "sha256-dr3ObKhWgAJBjyaESCXuu0gI/VP0799W4xdZLcR/4O8="
+      "project.Shared.dll": "sha256-XL8cEwrv4EyaZXsgyE7DNjT2akIpHeRuVrLLJqmMkVA=",
+      "project.Client.dll": "sha256-0+/hgIvsubIRDL89dwB40oHmQrvkaM3rSKrGl8l190k="
     },
     "pdb": {
-      "project.Shared.pdb": "sha256-LoTxqSNlVWYSD+w5t4MzVUzRzg2oeqysnza8qmaTwOk=",
-      "project.Client.pdb": "sha256-6S+v6FZkBzUEDAhCyvR6AFvLSkwQ39/gYqDjmwCbHuU="
+      "project.Shared.pdb": "sha256-qLqBNKTtqHVrifzss4fYSjFMe8+0dmzHZW3DM9TrTnE=",
+      "project.Client.pdb": "sha256-EnYGNvTtgrS8XrE58XQN8XHs97+MG/AXjrE95WxKmVQ="
     },
     "satelliteResources": {
       "de": {

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8oEAsfkdM9c=",
+  "dgSpecHash": "2hH6UMnLfDw=",
   "success": true,
   "projectFilePath": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stj067\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\stj067\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\stj067\\.nuget\\packages\\blazor.bootstrap\\3.2.0\\blazor.bootstrap.3.2.0.nupkg.sha512",
     "C:\\Users\\stj067\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\stj067\\.nuget\\packages\\entityframework\\6.5.0\\entityframework.6.5.0.nupkg.sha512",
     "C:\\Users\\stj067\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.36\\microsoft.aspnetcore.authorization.6.0.36.nupkg.sha512",

@@ -15,7 +15,7 @@ namespace project.Client.Services.ProductService
         Task<ServiceResponse<Product>> GetProduct(int productId);
         Task SearchProducts(string searchText, int page);
         Task<List<string>> GetProductSearchSuggestions(string searchText);
-        Task GetAdminProducts();
+        Task GetAdminProducts(int page);
         Task<Product> CreateProduct(Product product);
         Task<Product> UpdateProduct(Product product);
         Task DeleteProduct(Product product);

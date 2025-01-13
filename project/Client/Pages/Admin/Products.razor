@@ -11,6 +11,39 @@
 }
 else
 {
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            @* @for (int i = 1; i <= 5; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link" @onclick="(() => ChangePage(i))">@i</a>
+                </li>
+            } *@
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(1))">1</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(2))">2</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(3))">3</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(4))">4</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(5))">5</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(6))">6</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(7))">7</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(8))">8</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(9))">9</a></li>
+            <li class="page-item"><a class="page-link" @onclick="(() => ChangePage(10))">10</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
     <button class="btn btn-primary float-end" @onclick="CreateProduct">
         <i class="oi oi-plus"></i> Add new product
     </button>
@@ -30,54 +63,70 @@ else
                 <tr>
                     <td>
                         @if (!string.IsNullOrEmpty(product.ImageUrl))
-                    {
-                        <img src="@product.ImageUrl" />
-                    }
-                    else if (product.Images.Count > 0)
-                    {
-                        <img src="@product.Images[0].Data" />
-                    }
-                </td>
-                <td>@product.Title</td>
-                <td>
-                    @foreach (var variant in product.Variants)
-                    {
-                        <span>@variant.ProductType.Name</span>
+                        {
+                            <img src="../images/@product.ImageUrl" />
+                        }
+                        else if (product.Images.Count > 0)
+                        {
+                            <img src="../images/@product.Images[0].Data" />
+                        }
+                        else
+                        {
+                            <img class="media-img" src="../images/emptyProduct.png" />
+                        }
+                    </td>
+                    <td>@product.Title</td>
+                    <td>
+                        @foreach (var variant in product.Variants)
+                        {
+                            <span>@variant.ProductType.Name</span>
 
-                        <br />
-                    }
-                </td>
-                <td>
-                    @foreach (var variant in product.Variants)
-                    {
-                        <span>@variant.Price</span>
+                            <br />
+                        }
+                    </td>
+                    <td>
+                        @foreach (var variant in product.Variants)
+                        {
+                            <span>@variant.Price</span>
 
-                        <br />
-                    }
-                </td>
-                <td>@(product.Visible ? "✔️" : "")</td>
-                <td>
-                    <button class="btn btn-primary" @onclick="(() => EditProduct(product.Id))">
-                        <i class="oi oi-pencil"></i>
-                    </button>
-                </td>
-            </tr>
-        </Virtualize>
-    </tbody>
-</table>
+                            <br />
+                        }
+                    </td>
+                    <td>@(product.Visible ? "✔️" : "❌")</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="(() => EditProduct(product.Id))">
+                            <i class="oi oi-pencil"></i>
+                        </button>
+                    </td>
+                </tr>
+            </Virtualize>
+        </tbody>
+    </table>
 }
 
 @code {
+    private int pageNo {get; set;}
+    @* int productsPerPage = 5; // Sayfa başına gösterilecek ürün sayısı
+    int totalProducts = 52;  // Toplam ürün sayısı
+    int totalPages => (int)Math.Ceiling(totalProducts / (double)productsPerPage); // Toplam sayfa sayısı *@
+    private List<Product> ProductList {get; set;} = new List<Product>();
+
     protected override async Task OnInitializedAsync()
     {
-        await ProductService.GetAdminProducts();
+        pageNo=1;
+        await ProductService.GetAdminProducts(pageNo);
+    }
+
+    async Task ChangePage(int page){
+        pageNo = page;
+        await ProductService.GetAdminProducts(pageNo);
+        StateHasChanged();
     }
 
     void EditProduct(int productId)
     {
         NavigationManager.NavigateTo($"admin/product/{productId}");
     }
-
     void CreateProduct()
     {
         NavigationManager.NavigateTo("admin/product");

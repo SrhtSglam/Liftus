@@ -10,7 +10,6 @@ C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\Blazor
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\project.Server.staticwebassets.runtime.json
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\project.Server.staticwebassets.endpoints.json
-C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\app.db
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\project.Server.exe
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\project.Server.deps.json
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Release\net6.0\project.Server.runtimeconfig.json

@@ -45,20 +45,37 @@ namespace project.Server.Services.ProductService
             return new ServiceResponse<bool> { Data = true };
         }
 
-        public async Task<ServiceResponse<List<Product>>> GetAdminProducts()
+        public async Task<ServiceResponse<List<Product>>> GetAdminProducts(int page)
         {
+            int pageSize = 5;
             var response = new ServiceResponse<List<Product>>
             {
                 Data = await _context.Products
+                    // .Where(p => !p.Deleted)
+                    // .Include(p => p.Variants.Where(v => !v.Deleted))
+                    // .ThenInclude(v => v.ProductType)
+                    // .Include(p => p.Images)
+                    // .ToListAsync()
                     .Where(p => !p.Deleted)
                     .Include(p => p.Variants.Where(v => !v.Deleted))
                     .ThenInclude(v => v.ProductType)
                     .Include(p => p.Images)
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
                     .ToListAsync()
             };
 
             return response;
         }
+
+        // public async Task<ServiceResponse<int>> GetTotalProductCount()
+        // {
+        //     var count = await _context.Products
+        //         .Where(p => !p.Deleted)
+        //         .CountAsync();
+
+        //     return new ServiceResponse<int> { Data = count };
+        // }
 
         public async Task<ServiceResponse<List<Product>>> GetFeaturedProducts()
         {

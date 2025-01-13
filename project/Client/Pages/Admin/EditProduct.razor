@@ -227,7 +227,7 @@ else
             var buffer = new byte[resizedImage.Size];
             await resizedImage.OpenReadStream().ReadAsync(buffer);
             var imageData = $"data:{format};base64,{Convert.ToBase64String(buffer)}";
-            product.Images.Add(new Image { Data = imageData });
+            product.Images.Add(new project.Shared.Image { Data = imageData });
         }
     }
 

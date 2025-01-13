@@ -81,12 +81,32 @@
       "PackagePath": "staticwebassets\\images\\banner3.png"
     },
     {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\book1.png",
+      "PackagePath": "staticwebassets\\images\\book1.png"
+    },
+    {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\cinema1.png",
       "PackagePath": "staticwebassets\\images\\cinema1.png"
     },
     {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock1.png",
+      "PackagePath": "staticwebassets\\images\\clock1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock2.png",
+      "PackagePath": "staticwebassets\\images\\clock2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock3.png",
+      "PackagePath": "staticwebassets\\images\\clock3.png"
+    },
+    {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\drone1.png",
       "PackagePath": "staticwebassets\\images\\drone1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\emptyProduct.png",
+      "PackagePath": "staticwebassets\\images\\emptyProduct.png"
     },
     {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\fridge1.png",
@@ -217,6 +237,14 @@
       "PackagePath": "staticwebassets\\images\\ps4-1.png"
     },
     {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\shoes1.png",
+      "PackagePath": "staticwebassets\\images\\shoes1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\shoes2.png",
+      "PackagePath": "staticwebassets\\images\\shoes2.png"
+    },
+    {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\stove1.png",
       "PackagePath": "staticwebassets\\images\\stove1.png"
     },
@@ -237,6 +265,14 @@
       "PackagePath": "staticwebassets\\images\\tablet3.png"
     },
     {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tshirt1.png",
+      "PackagePath": "staticwebassets\\images\\tshirt1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tshirt2.png",
+      "PackagePath": "staticwebassets\\images\\tshirt2.png"
+    },
+    {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tv1.png",
       "PackagePath": "staticwebassets\\images\\tv1.png"
     },
@@ -251,6 +287,18 @@
     {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\manifest.json",

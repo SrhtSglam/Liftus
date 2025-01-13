@@ -1,7 +1,7 @@
 {
   "entryAssembly": "project.Client",
   "resources": {
-    "hash": "sha256-Q5yQa0qnrTpFmwF9PmUovJW3qn1NIBFZwu7mNwZmn78=",
+    "hash": "sha256-GIrQ8ihzUEBr2ISY2JDThRPxVTjnP472tp1Y4DhVHDI=",
     "runtime": {
       "dotnet.js": "sha256-pu7MO47B6So4jcW6iY2UI11lBZYz2EQnJKiYNsOpNJg=",
       "dotnet.timezones.blat": "sha256-vrFYQt55a4tGoDGoyRfjjGa1nSecx646RK78iTzPWCM=",
@@ -14,6 +14,7 @@
     "assembly": {
       "Azure.Core.dll": "sha256-n99lo2Sb2Qmi7GGC7Veocf+M704XRp8f+PBXlpt9W8w=",
       "Azure.Identity.dll": "sha256-/CphBnWxgDF2cG5+//jGJC2gguTfTv47O/N9ZeR2U10=",
+      "BlazorBootstrap.dll": "sha256-MPyWYLMwltK1JVbSjGaIrQc/dy001PVQahy4U3C3gg0=",
       "Blazored.LocalStorage.dll": "sha256-lAGIyP65K8gc+7vvUYMTCNZJaXJtiHqSimcfhpcBOuQ=",
       "EntityFramework.SqlServer.dll": "sha256-9k7QCLgex5vtA2OOhow/WVB5wIGlZRps5Qw2mvwCcrs=",
       "EntityFramework.dll": "sha256-vOGCT4CwXs/PmqXBp5OqWK43VNxIDNecyWQ1gSlc7o0=",
@@ -243,12 +244,12 @@
       "mscorlib.dll": "sha256-FHccFgM8rcGOQ8oacA4eEgiiOynHayVKyd2ICq3Bo4w=",
       "netstandard.dll": "sha256-D91viTBgwuzeuIOx1KgBYnoY0hl2IpcBu/zr22Fu0BU=",
       "System.Private.CoreLib.dll": "sha256-5FbWgChEgLPlYByi8VsHTisbCpgMNSbf95JK5dVOs50=",
-      "project.Shared.dll": "sha256-wSdDITOOLZ8ua8agXN4BGiqEVWHb6zD+ci45zkPl/Ps=",
-      "project.Client.dll": "sha256-6RMXwvKBeUc6sILkyGIUqDHstkTQ/+y/NgOtvhFLH1k="
+      "project.Shared.dll": "sha256-6vhn9rULns3ZWXbIHlmhU/kyoVNdPnTCAaNEu18MSVc=",
+      "project.Client.dll": "sha256-65wpfDGVP00L3qooV9p7s2JXsRnMkUTDNet6ORp5fhw="
     },
     "pdb": {
-      "project.Shared.pdb": "sha256-9jTQEGI53VoorSq19Mtx2X6kwWO/5Ht0HPJFikcq490=",
-      "project.Client.pdb": "sha256-ERNxh4kaXxR2qvVBnyQ4mXaGxjAC9PXreqgx08WvC2c="
+      "project.Shared.pdb": "sha256-mz7PjQBVKQJIoqrOgX8/tuVBJQX6vd0Y+EHnJbf+gDw=",
+      "project.Client.pdb": "sha256-KIsK39yAbZazg2rxiXm1/9fRhuH0/te5nlU8p79W6uw="
     },
     "satelliteResources": {
       "de": {

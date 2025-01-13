@@ -191,3 +191,7 @@ C:\Users\stj067\Documents\GitHub\Liftus\project\Server\obj\Debug\net6.0\project.
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\obj\Debug\net6.0\project.Server.genruntimeconfig.cache
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\obj\Debug\net6.0\ref\project.Server.dll
 C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Debug\net6.0\WebEssentials.AspNetCore.Pwa.dll
+C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\stj067\Documents\GitHub\Liftus\project\Server\bin\Debug\net6.0\BlazorBootstrap.dll

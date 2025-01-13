@@ -15,10 +15,10 @@ namespace project.Server.Controllers
             _productService = productService;
         }
 
-        [HttpGet("admin"), Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts()
+        [HttpGet("admin/{page}"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts(int page)
         {
-            var result = await _productService.GetAdminProducts();
+            var result = await _productService.GetAdminProducts(page);
             return Ok(result);
         }
 

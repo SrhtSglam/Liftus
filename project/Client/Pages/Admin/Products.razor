@@ -50,7 +50,7 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th></th>
+                @* <th></th> *@
                 <th>Product</th>
                 <th>Variant</th>
                 <th>Price</th>
@@ -61,7 +61,7 @@ else
         <tbody>
             <Virtualize Items="ProductService.AdminProducts" Context="product">
                 <tr>
-                    <td>
+                    @* <td>
                         @if (!string.IsNullOrEmpty(product.ImageUrl))
                         {
                             <img src="../images/@product.ImageUrl" />
@@ -74,7 +74,7 @@ else
                         {
                             <img class="media-img" src="../images/emptyProduct.png" />
                         }
-                    </td>
+                    </td> *@
                     <td>@product.Title</td>
                     <td>
                         @foreach (var variant in product.Variants)

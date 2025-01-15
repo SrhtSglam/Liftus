@@ -1060,8 +1060,8 @@ C:\Users\stj067\Documents\GitHub\Liftus\project\Client\bin\Debug\net6.0\wwwroot\
 C:\Users\stj067\Documents\GitHub\Liftus\project\Client\bin\Debug\net6.0\BlazorBootstrap.dll
 C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\3dc78jln1j-g4nnjbz48v.gz
 C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css
-C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\vzaunjuown-pifiujuaqh.gz
-C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\ykzlg2bbmp-lxdr5k5vgn.gz
-C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\0g492jm0hl-tvvm5fz2ix.gz
-C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\6nmqislp1v-3qs71z20mb.gz
-C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\9vhgc0c3qm-8fi7zq1ylf.gz
+C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\vzaunjuown-mmpmrka96f.gz
+C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\ykzlg2bbmp-7vlas2xe9z.gz
+C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\0g492jm0hl-of31aogt0m.gz
+C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\6nmqislp1v-ypxg39208y.gz
+C:\Users\stj067\Documents\GitHub\Liftus\project\Client\obj\Debug\net6.0\compressed\9vhgc0c3qm-derox3wshb.gz

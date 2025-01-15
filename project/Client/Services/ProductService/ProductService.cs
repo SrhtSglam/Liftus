@@ -36,8 +36,7 @@ namespace project.Client.Services.ProductService
 
         public async Task GetAdminProducts(int page)
         {
-            var result = await _http
-                .GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/product/admin/{page}");
+            var result = await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/product/admin/{page}");
             AdminProducts = result.Data;
             CurrentPage = 1;
             PageCount = 0;

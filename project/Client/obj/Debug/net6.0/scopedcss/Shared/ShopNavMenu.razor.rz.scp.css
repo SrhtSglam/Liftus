@@ -47,7 +47,7 @@
     flex-direction: column;
 }
 .cart-counter-wrapper[b-8tu0oft8iy] {
-    margin-left: auto; /* CartCounter'ı sağa yaslar */
+    margin-left: auto;
 }
 
 @media (min-width: 641px) {
@@ -61,7 +61,6 @@
     }
 
     .collapse[b-8tu0oft8iy] {
-        /* Never collapse the sidebar for wide screens */
         display: block;
     }
 }

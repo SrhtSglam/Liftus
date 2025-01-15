@@ -3,42 +3,51 @@
 
 @if (ProductService.Products == null || ProductService.Products.Count == 0)
 {
-    <div class="alert alert-warning" role="alert">
+    @* <div class="alert alert-warning" role="alert">
         @ProductService.Message
+    </div> *@
+
+    <div class="text-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
     </div>
 }
 else
 {
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+            </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
     <ul class="row">
         @foreach (var product in ProductService.Products)
         {
-            <div class="col-sm-6 col-md-3">
-                <div class="media my-3">
-                    <div class="media-img-wrapper mr-2">
-                        <a href="/product/@product.Id">
-                            @if (!string.IsNullOrEmpty(product.ImageUrl))
-                            {
-                                <img class="media-img" src="../images/@product.ImageUrl" alt="@product.Title" />
-                            }
-                            else if (product.Images.Count > 0)
-                            {
-                                <img class="media-img" src="@product.Images[0].Data" alt="@product.Title" />
-                            }
-                            else{
-                                <img class="media-img" src="../images/emptyProduct.png" />
-                            }
-                        </a>
+            <div class="col-3">
+                <div class="card my-2 mx-2">
+                    <img src="../images/@product.ImageUrl" class="card-img-top rounded mx-auto d-block" style="max-width: 250px; max-height: 250px;" alt="productPng">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                        <h6 class="card-text price">@GetPriceText(product)</h6>
+                        <p class="card-text">
+                            @(product.Description.Length > 70 ? product.Description.Substring(0, 70) + "..." : product.Description)
+                        </p>
+                        <a href="/product/@product.Id" class="btn btn-primary">Details</a>
                     </div>
-                    <div class="media-body">
-                        <a href="/product/@product.Id">
-                            <h4 class="mb-0">@product.Title</h4>
-                        </a>
-                        <p>@product.Description</p>
-                        <h5 class="price">
-                            @GetPriceText(product)
-                        </h5>
-                    </div>
-            </div>
+                </div>
             </div>
         }
     </ul>

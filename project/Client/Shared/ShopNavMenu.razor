@@ -18,11 +18,11 @@
                 Home
             </NavLink> *@
             <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a type="button" class="btn dropdown-toggle dropdown-toggle-split" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="iconify" data-icon="bx:category"></span> All Categories
                 </a>
 
-                <div class="dropdown-menu" style="background-color: #404040;" aria-labelledby="dropdownMenuLink">
+                <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
                     <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                         Home
                     </NavLink>
@@ -40,17 +40,13 @@
             <div class="nav-item px-2">
                 <div class="btn-group">
                     <NavLink style="font-size: 14px;" class="btn" href="@category.Url">@category.Name</NavLink>
-                    <a type="button" class="btn dropdown-toggle dropdown-toggle-split" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a type="button" class="btn dropdown-toggle dropdown-toggle-split" id="dropdownMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="sr-only"></span>
                     </a>
-                    <div class="dropdown-menu" style="background-color: #404040;" aria-labelledby="dropdownMenu">
+                    <div class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="dropdownMenu">
                         @if(category.SubCategories != null){
                             foreach(var item in category.SubCategories){
-                                <a class="dropdown-item" href="@item.Url">@item.Name</a>
-                            }
-                        }else{
-                            @foreach(var subcategory in SubCategoryService.SubCategories){
-                                <a class="dropdown-item" href="@subcategory.Url">@subcategory.Name</a>
+                                <a class="dropdown-item" href="@category.Url/@item.Url">@item.Name</a>
                             }
                         }
                         <div class="dropdown-divider"></div>
@@ -59,6 +55,20 @@
                 </div>
             </div>
         }
+        @* <div class="nav-item px-2">
+            <div class="btn-group">
+                <NavLink style="font-size: 14px;" class="btn" href="/">Hover Category</NavLink>
+                <a type="button" class="btn dropdown-toggle dropdown-toggle-split" id="dropdownMenu"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                    <span class="sr-only"></span>
+                </a>
+                <div class="dropdown-menu" style="background-color: #404040;" aria-labelledby="dropdownMenu">
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+        </div> *@
+
     </nav>
 </div>
 
@@ -74,8 +84,8 @@
 
     protected override async Task OnInitializedAsync()
     {
-        await CategoryService.GetCategories();
-        @* await CategoryService.GetSubCategoriesWithCategory(); *@
+        @* await CategoryService.GetCategories(); *@
+        await CategoryService.GetSubCategoriesWithCategory();
         await SubCategoryService.GetSubCategories();
         CategoryService.OnChange += StateHasChanged;
         SubCategoryService.OnChange += StateHasChanged;

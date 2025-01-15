@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.min.css"
     },
     {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
@@ -289,12 +297,20 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\jquery-3.3.1.slim.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.slim.min.js"
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\popper.min.js",

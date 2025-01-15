@@ -71,7 +71,7 @@ namespace project.Server.Services.CategoryService
             var categories = await _context.Categories
                 .Where(c => !c.Deleted && c.Visible)
                 .Include(c => c.SubCategories)
-                .Where(c => c.SubCategories.Any(sc => !sc.Deleted && sc.Visible))
+                // .Where(c => c.SubCategories.Any(sc => !sc.Deleted && sc.Visible))
                 .ToListAsync();
             return new ServiceResponse<List<Category>>
             {

@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Authentication.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/SideBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZGVCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -95,10 +103,6 @@ build_metadata.AdditionalFiles.CssScope = b-wuab6ztqyz
 [C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/EditProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t4usb22i1i
-
-[C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/Products.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-rp510ou27f
 
 [C:/Users/stj067/Documents/GitHub/Liftus/project/Client/Pages/Admin/ProductTypes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFR5cGVzLnJhem9y

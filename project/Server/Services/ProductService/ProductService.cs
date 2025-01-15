@@ -47,15 +47,10 @@ namespace project.Server.Services.ProductService
 
         public async Task<ServiceResponse<List<Product>>> GetAdminProducts(int page)
         {
-            int pageSize = 5;
+            int pageSize = 10;
             var response = new ServiceResponse<List<Product>>
             {
                 Data = await _context.Products
-                    // .Where(p => !p.Deleted)
-                    // .Include(p => p.Variants.Where(v => !v.Deleted))
-                    // .ThenInclude(v => v.ProductType)
-                    // .Include(p => p.Images)
-                    // .ToListAsync()
                     .Where(p => !p.Deleted)
                     .Include(p => p.Variants.Where(v => !v.Deleted))
                     .ThenInclude(v => v.ProductType)

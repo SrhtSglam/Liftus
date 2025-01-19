@@ -22,6 +22,13 @@ namespace project.Server.Controllers
             return Ok(result);
         }
 
+        // [HttpGet("count"), Authorize(Roles = "Admin")]
+        // public async Task<ActionResult<ServiceResponse<int>>> GetProductCount()
+        // {
+        //     var result = await _productService.GetProductsCount();
+        //     return Ok(result);
+        // }
+
         [HttpPost, Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<Product>>> CreateProduct(Product product)
         {

@@ -43,7 +43,7 @@ else
                         <h5 class="card-title">@product.Title</h5>
                         <h6 class="card-text price">@GetPriceText(product)</h6>
                         <p class="card-text">
-                            @(product.Description.Length > 70 ? product.Description.Substring(0, 70) + "..." : product.Description)
+                            @(product.Description.Length > 70 ? product.Description.Substring(0, 67) + "..." : product.Description)
                         </p>
                         <a href="/product/@product.Id" class="btn btn-primary">Details</a>
                     </div>

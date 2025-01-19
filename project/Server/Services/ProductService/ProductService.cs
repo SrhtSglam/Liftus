@@ -47,7 +47,7 @@ namespace project.Server.Services.ProductService
 
         public async Task<ServiceResponse<List<Product>>> GetAdminProducts(int page)
         {
-            int pageSize = 10;
+            int pageSize = 12;
             var response = new ServiceResponse<List<Product>>
             {
                 Data = await _context.Products
@@ -134,6 +134,13 @@ namespace project.Server.Services.ProductService
 
             return response;
         }
+
+        // public async Task<ServiceResponse<int>> GetProductsCount(){
+        //     var count = _context.Products.Count();
+        //     return new ServiceResponse<int>{
+        //         Data = count
+        //     };
+        // }
 
         public async Task<ServiceResponse<List<Product>>> GetProductsByCategory(string categoryUrl)
         {

@@ -1,108 +1,143 @@
 @page "/admin/dashboard"
 @inject IProductService ProductService
+@inject IUserService UserService
 @inject NavigationManager NavigationManager
 @attribute [Authorize(Roles = "Admin")]
 
 <SideBar />
 <h3>Dashboard</h3>
-
-<div class="row my-4">
-    @foreach (var item in data.listTitleCount)
-    {
+@if (UserService.Users == null || UserService.Users.Count == 0)
+{
+    <div class="text-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row my-4">
         <div class="col-2">
             <div class="card">
                 <div class="card-body text-body-secondary">
-                    <h5 class="card-title">@item.Title</h5>
-                    <h4 class="card-subtitle mb-2">@item.Count</h4>
-                    <h6 class="card-text"><span class="text-success">@item.Rate.ToString(item.Rate + "%")</span>
+                    <h5 class="card-title">Total Users</h5>
+                    <h4 class="card-subtitle mb-2">@UserService.Users.Count</h4>
+                    <h6 class="card-text"><span class="text-success">10%</span>
                         From last Week</h6>
                 </div>
             </div>
         </div>
-    }
-</div>
-
-<div class="row my-4">
-    <div class="col-9">
-
-    </div>
-    <div class="col-3">
-        @* <div class="card" style="width: 18rem;"> *@
-        <div class="card">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    Top Profiles 
-                    <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <span class="iconify" data-icon="oi:arrow-bottom"></span>
-                    </a>
-                </li>
-                <div class="collapse show" id="collapseExample">
-                    <li class="list-group-item"><img class="rounded" style="width: 64px; height: 64px;" src="https://avatars.githubusercontent.com/u/102348106?s=400&u=edc73f7952d98cb78beab6249286b67202f21a6f&v=4" alt=""> 
-                        <b>Serhat Sağlam</b>
-                    </li>
-                    <li class="list-group-item">A third item</li>
+        <div class="col-2">
+            <div class="card">
+                <div class="card-body text-body-secondary">
+                    <h5 class="card-title">Total Products</h5>
+                    <h4 class="card-subtitle mb-2">@ProductService.Products.Count</h4>
+                    <h6 class="card-text"><span class="text-success">3%</span>
+                        From last Week</h6>
                 </div>
-            </ul>
+            </div>
+        </div>
+        @foreach (var item in data.listTitleCount)
+        {
+            <div class="col-2">
+                <div class="card">
+                    <div class="card-body text-body-secondary">
+                        <h5 class="card-title">@item.Title</h5>
+                        <h4 class="card-subtitle mb-2">@item.Count</h4>
+                        <h6 class="card-text"><span class="text-success">@item.Rate.ToString(item.Rate + "%")</span>
+                            From last Week</h6>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="row my-4">
+        <div class="col-9">
+
+        </div>
+        <div class="col-3">
+            @* <div class="card" style="width: 18rem;"> *@
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        Top Profiles
+                        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <span class="iconify" data-icon="oi:arrow-bottom"></span>
+                        </a>
+                    </li>
+                    <div class="collapse show" id="collapseExample">
+                        <li class="list-group-item"><img class="rounded" style="width: 64px; height: 64px;"
+                                src="https://avatars.githubusercontent.com/u/102348106?s=400&u=edc73f7952d98cb78beab6249286b67202f21a6f&v=4"
+                                alt="">
+                            <b>Serhat Sağlam</b>
+                        </li>
+                        <li class="list-group-item">A third item</li>
+                    </div>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="row my-4">
-    <div class="col-6">
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                @for (int i = 0; i < 6; i++)
-                {
+    <div class="row my-4">
+        <div class="col-6">
+            <table class="table">
+                <thead class="thead-dark">
                     <tr>
-                        <th scope="row">@i</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>Test</td>
+                        <th scope="col">#</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Created Date</th>
+                        <th scope="col">Role</th>
                     </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-    <div class="col-6">
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in data.listElements)
-                {
+                </thead>
+                <tbody>
+                    @foreach(var item in UserService.Users)
+                    {
+                        <tr>
+                            <th scope="row">@item.Id</th>
+                            <td>@item.Email</td>
+                            <td>@item.DateCreated</td>
+                            <td>@item.Role</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-6">
+            <table class="table">
+                <thead class="thead-dark">
                     <tr>
-                        <th scope="row">@item.Id</th>
-                        <td>@item.Name</td>
-                        <td>@item.Url</td>
-                        <td>@item.Date</td>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var item in data.listElements)
+                    {
+                        <tr>
+                            <th scope="row">@item.Id</th>
+                            <td>@item.Name</td>
+                            <td>@item.Url</td>
+                            <td>@item.Date</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-</div>
-
+}
 
 
 @code {
     private InitializeData data { get; set; } = new InitializeData();
+    private int ProductsCount { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-
+        await UserService.GetUsers();
+        @* ProductsCount = ProductService.GetProductsCount(); *@
     }
 }

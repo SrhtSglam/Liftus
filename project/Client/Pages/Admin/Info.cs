@@ -23,8 +23,8 @@ public class InitializeData{
         };
 
         var titleElements = new List<TitleCount>{
-            new TitleCount{Title = "Users", Count = 2500, Rate = 4, IsPositive = true},
-            new TitleCount{Title = "Avarage Time", Count = 123, Rate = 3, IsPositive = true},
+            // new TitleCount{Title = "Users", Count = 2500, Rate = 4, IsPositive = true},
+            // new TitleCount{Title = "Avarage Time", Count = 123, Rate = 3, IsPositive = true},
             new TitleCount{Title = "Males", Count = 2500, Rate = 34, IsPositive = true},
             new TitleCount{Title = "Females", Count = 4567, Rate = 12, IsPositive = false},
             new TitleCount{Title = "Collections", Count = 2315, Rate = 34, IsPositive = true},

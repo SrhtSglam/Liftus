@@ -13,6 +13,7 @@ namespace project.Client.Services.ProductService
         }
 
         public List<Product> Products { get; set; } = new List<Product>();
+        public int ProductCount { get; set; } = 0;
         public string Message { get; set; } = "Loading products...";
         public int CurrentPage { get; set; } = 1;
         public int PageCount { get; set; } = 0;
@@ -66,6 +67,13 @@ namespace project.Client.Services.ProductService
 
             ProductsChanged.Invoke();
         }
+
+        // public async Task<ServiceResponse<int>> GetProductsCount(){
+        //     var result = await _http.GetFromJsonAsync<ServiceResponse<int>>("api/product/count");
+        //     // if(result != null && result.Data != null)
+        //     //     ProductCount = result.Data;
+        //     return result;
+        // }
 
         public async Task<List<string>> GetProductSearchSuggestions(string searchText)
         {

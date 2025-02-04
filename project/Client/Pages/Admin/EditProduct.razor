@@ -104,7 +104,7 @@ else
         <hr />
         <div class="mb-0">
             <label for="category">Category</label>
-            <InputSelect id="category" @bind-Value="product.CategoryId" class="form-control">
+            <InputSelect id="category" @bind-Value="product.SubCategoryId" class="form-control">
                 @foreach (var category in CategoryService.AdminCategories)
                 {
                 <option value="@category.Id">@category.Name</option>

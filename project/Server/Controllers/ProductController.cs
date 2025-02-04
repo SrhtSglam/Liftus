@@ -64,10 +64,10 @@ namespace project.Server.Controllers
             return Ok(result);
         }
 
-        [HttpGet("category/{categoryUrl}")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProductsByCategory(string categoryUrl)
+        [HttpGet("subcategory/{subcategoryUrl}/{page}")]
+        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProductsByCategory(string subcategoryUrl, int page)
         {
-            var result = await _productService.GetProductsByCategory(categoryUrl);
+            var result = await _productService.GetProductsByCategory(subcategoryUrl, page);
             return Ok(result);
         }
 

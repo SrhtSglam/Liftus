@@ -51,17 +51,14 @@ namespace project.Client.Services.ProductService
             return result;
         }
 
-        public async Task GetProducts(string? categoryUrl = null)
+        public async Task GetProducts(string? subcategoryUrl = null, int page = 1)
         {
-            var result = categoryUrl == null ?
+            var result = subcategoryUrl == null ?
                 await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product/featured") :
-                await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/product/category/{categoryUrl}");
+                await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/product/subcategory/{subcategoryUrl}/{page}");
             if (result != null && result.Data != null)
                 Products = result.Data;
-
-            CurrentPage = 1;
-            PageCount = 0;
-
+            
             if (Products.Count == 0)
                 Message = "No products found";
 

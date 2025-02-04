@@ -11,8 +11,9 @@ namespace project.Shared
         public string Description { get; set; } = string.Empty;
         public string ImageUrl { get; set; } = string.Empty;
         public List<Image> Images { get; set; } = new List<Image>();
-        public Category? Category { get; set; }
-        public int CategoryId { get; set; }
+        // public Category? Category { get; set; }
+        public SubCategory? SubCategory { get; set; }
+        public int SubCategoryId { get; set; }
         public bool Featured { get; set; } = false;
         public List<ProductVariant> Variants { get; set; } = new List<ProductVariant>();
         public bool Visible { get; set; } = true;

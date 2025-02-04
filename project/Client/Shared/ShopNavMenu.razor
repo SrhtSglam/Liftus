@@ -46,7 +46,7 @@
                     <div class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="dropdownMenu">
                         @if(category.SubCategories != null){
                             foreach(var item in category.SubCategories){
-                                <a class="dropdown-item" href="@category.Url/@item.Url">@item.Name</a>
+                                <a class="dropdown-item" href="@item.Url/1">@item.Name</a>
                             }
                         }
                         <div class="dropdown-divider"></div>

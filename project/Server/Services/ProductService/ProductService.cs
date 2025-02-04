@@ -142,15 +142,19 @@ namespace project.Server.Services.ProductService
         //     };
         // }
 
-        public async Task<ServiceResponse<List<Product>>> GetProductsByCategory(string categoryUrl)
+        public async Task<ServiceResponse<List<Product>>> GetProductsByCategory(string subcategoryUrl, int page)
         {
+            int pageSize = 12;
+
             var response = new ServiceResponse<List<Product>>
             {
                 Data = await _context.Products
-                    .Where(p => p.Category.Url.ToLower().Equals(categoryUrl.ToLower()) &&
+                    .Where(p => p.SubCategory.Url.ToLower().Equals(subcategoryUrl.ToLower()) &&
                         p.Visible && !p.Deleted)
                     .Include(p => p.Variants.Where(v => v.Visible && !v.Deleted))
                     .Include(p => p.Images)
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
                     .ToListAsync()
             };
 
@@ -236,7 +240,7 @@ namespace project.Server.Services.ProductService
             dbProduct.Title = product.Title;
             dbProduct.Description = product.Description;
             dbProduct.ImageUrl = product.ImageUrl;
-            dbProduct.CategoryId = product.CategoryId;
+            dbProduct.SubCategoryId = product.SubCategoryId;
             dbProduct.Visible = product.Visible;
             dbProduct.Featured = product.Featured;
 
@@ -272,11 +276,11 @@ namespace project.Server.Services.ProductService
         private async Task<List<Product>> FindProductsBySearchText(string searchText)
         {
             return await _context.Products
-                                .Where(p => p.Title.ToLower().Contains(searchText.ToLower()) ||
-                                    p.Description.ToLower().Contains(searchText.ToLower()) &&
-                                    p.Visible && !p.Deleted)
-                                .Include(p => p.Variants)
-                                .ToListAsync();
+                .Where(p => p.Title.ToLower().Contains(searchText.ToLower()) ||
+                    p.Description.ToLower().Contains(searchText.ToLower()) &&
+                    p.Visible && !p.Deleted)
+                .Include(p => p.Variants)
+                .ToListAsync();
         }
     }
 }

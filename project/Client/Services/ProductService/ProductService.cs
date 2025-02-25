@@ -45,9 +45,9 @@ namespace project.Client.Services.ProductService
                 Message = "No products found.";
         }
 
-        public async Task<ServiceResponse<Product>> GetProduct(int productId)
+        public async Task<ServiceResponse<ProductProperty>> GetProduct(int productId)
         {
-            var result = await _http.GetFromJsonAsync<ServiceResponse<Product>>($"api/product/{productId}");
+            var result = await _http.GetFromJsonAsync<ServiceResponse<ProductProperty>>($"api/product/{productId}");
             return result;
         }
 

@@ -13,7 +13,7 @@ namespace project.Client.Services.ProductService
         int PageCount { get; set; }
         string LastSearchText { get; set; }
         Task GetProducts(string? subcategoryUrl = null, int page = 0);
-        Task<ServiceResponse<Product>> GetProduct(int productId);
+        Task<ServiceResponse<ProductProperty>> GetProduct(int productId);
         // Task<ServiceResponse<int>> GetProductsCount();
         Task SearchProducts(string searchText, int page);
         Task<List<string>> GetProductSearchSuggestions(string searchText);

@@ -1,323 +1,323 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\project.Client.styles.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\project.Client.styles.css",
       "PackagePath": "staticwebassets\\project.Client.styles.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\icon-512.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\banner1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\banner1.png",
       "PackagePath": "staticwebassets\\images\\banner1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\banner2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\banner2.png",
       "PackagePath": "staticwebassets\\images\\banner2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\banner3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\banner3.png",
       "PackagePath": "staticwebassets\\images\\banner3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\book1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\book1.png",
       "PackagePath": "staticwebassets\\images\\book1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\cinema1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\cinema1.png",
       "PackagePath": "staticwebassets\\images\\cinema1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock1.png",
       "PackagePath": "staticwebassets\\images\\clock1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock2.png",
       "PackagePath": "staticwebassets\\images\\clock2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\clock3.png",
       "PackagePath": "staticwebassets\\images\\clock3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\drone1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\drone1.png",
       "PackagePath": "staticwebassets\\images\\drone1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\emptyProduct.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\emptyProduct.png",
       "PackagePath": "staticwebassets\\images\\emptyProduct.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\fridge1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\fridge1.png",
       "PackagePath": "staticwebassets\\images\\fridge1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\game1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\game1.png",
       "PackagePath": "staticwebassets\\images\\game1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\guest.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\guest.png",
       "PackagePath": "staticwebassets\\images\\guest.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\hair1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\hair1.png",
       "PackagePath": "staticwebassets\\images\\hair1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\hair2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\hair2.png",
       "PackagePath": "staticwebassets\\images\\hair2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop1-1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop1-1.png",
       "PackagePath": "staticwebassets\\images\\laptop1-1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop1-2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop1-2.png",
       "PackagePath": "staticwebassets\\images\\laptop1-2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop1.png",
       "PackagePath": "staticwebassets\\images\\laptop1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop2.png",
       "PackagePath": "staticwebassets\\images\\laptop2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop3.png",
       "PackagePath": "staticwebassets\\images\\laptop3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop4.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\laptop4.png",
       "PackagePath": "staticwebassets\\images\\laptop4.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\material1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\material1.png",
       "PackagePath": "staticwebassets\\images\\material1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\mop1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\mop1.png",
       "PackagePath": "staticwebassets\\images\\mop1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\mop2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\mop2.png",
       "PackagePath": "staticwebassets\\images\\mop2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\music1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\music1.png",
       "PackagePath": "staticwebassets\\images\\music1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\music2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\music2.png",
       "PackagePath": "staticwebassets\\images\\music2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\pc1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\pc1.png",
       "PackagePath": "staticwebassets\\images\\pc1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\pc2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\pc2.png",
       "PackagePath": "staticwebassets\\images\\pc2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\pc3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\pc3.png",
       "PackagePath": "staticwebassets\\images\\pc3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone-1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone-1.png",
       "PackagePath": "staticwebassets\\images\\phone-1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone-3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone-3.png",
       "PackagePath": "staticwebassets\\images\\phone-3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone.png",
       "PackagePath": "staticwebassets\\images\\phone.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone1.png",
       "PackagePath": "staticwebassets\\images\\phone1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone2.png",
       "PackagePath": "staticwebassets\\images\\phone2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone3.png",
       "PackagePath": "staticwebassets\\images\\phone3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone4.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\phone4.png",
       "PackagePath": "staticwebassets\\images\\phone4.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\photo1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\photo1.png",
       "PackagePath": "staticwebassets\\images\\photo1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\photo2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\photo2.png",
       "PackagePath": "staticwebassets\\images\\photo2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\printer1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\printer1.png",
       "PackagePath": "staticwebassets\\images\\printer1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\ps3-1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\ps3-1.png",
       "PackagePath": "staticwebassets\\images\\ps3-1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\ps3-2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\ps3-2.png",
       "PackagePath": "staticwebassets\\images\\ps3-2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\ps4-1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\ps4-1.png",
       "PackagePath": "staticwebassets\\images\\ps4-1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\shoes1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\shoes1.png",
       "PackagePath": "staticwebassets\\images\\shoes1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\shoes2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\shoes2.png",
       "PackagePath": "staticwebassets\\images\\shoes2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\stove1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\stove1.png",
       "PackagePath": "staticwebassets\\images\\stove1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\stove2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\stove2.png",
       "PackagePath": "staticwebassets\\images\\stove2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tablet1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tablet1.png",
       "PackagePath": "staticwebassets\\images\\tablet1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tablet2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tablet2.png",
       "PackagePath": "staticwebassets\\images\\tablet2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tablet3.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tablet3.png",
       "PackagePath": "staticwebassets\\images\\tablet3.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tshirt1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tshirt1.png",
       "PackagePath": "staticwebassets\\images\\tshirt1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tshirt2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tshirt2.png",
       "PackagePath": "staticwebassets\\images\\tshirt2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tv1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tv1.png",
       "PackagePath": "staticwebassets\\images\\tv1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tv2.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\tv2.png",
       "PackagePath": "staticwebassets\\images\\tv2.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\xbox1.png",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\images\\xbox1.png",
       "PackagePath": "staticwebassets\\images\\xbox1.png"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\popper.min.js",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\manifest.json",
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\wwwroot\\manifest.json",
       "PackagePath": "staticwebassets\\manifest.json"
     },
     {

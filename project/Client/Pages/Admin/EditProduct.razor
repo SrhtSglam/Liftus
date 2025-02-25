@@ -156,13 +156,13 @@ else
         }
         else
         {
-            Product dbProduct = (await ProductService.GetProduct(Id)).Data;
+            ProductProperty dbProduct = (await ProductService.GetProduct(Id)).Data;
             if (dbProduct == null)
             {
                 msg = $"Product with Id '{Id}' does not exist!";
                 return;
             }
-            product = dbProduct;
+            product = dbProduct.product;
             product.Editing = true;
             btnText = "Update Product";
         }

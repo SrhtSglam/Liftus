@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj": {}
+    "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj": {
+    "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj",
+        "projectUniqueName": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj",
         "projectName": "project.Client",
-        "projectPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj",
-        "packagesPath": "C:\\Users\\serha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\",
+        "projectPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj",
+        "packagesPath": "C:\\Users\\stj067\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\serha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stj067\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj": {
-                "projectPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj"
+              "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj": {
+                "projectPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj"
               }
             }
           }
@@ -46,7 +47,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -106,7 +107,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.2, )",
               "autoReferenced": true
             },
             "Stripe": {
@@ -136,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -145,20 +146,20 @@
         }
       }
     },
-    "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj": {
+    "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj",
+        "projectUniqueName": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj",
         "projectName": "project.Server",
-        "projectPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj",
-        "packagesPath": "C:\\Users\\serha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Server\\obj\\",
+        "projectPath": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Server\\project.Server.csproj",
+        "packagesPath": "C:\\Users\\stj067\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\serha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stj067\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -167,17 +168,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj": {
-                "projectPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj"
+              "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj": {
+                "projectPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Client\\project.Client.csproj"
               },
-              "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj": {
-                "projectPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj"
+              "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj": {
+                "projectPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj"
               }
             }
           }
@@ -190,7 +192,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -258,24 +260,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj": {
+    "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj",
+        "projectUniqueName": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj",
         "projectName": "project.Shared",
-        "projectPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj",
-        "packagesPath": "C:\\Users\\serha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serha\\Documents\\GitHub\\Liftus\\project\\Shared\\obj\\",
+        "projectPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\project.Shared.csproj",
+        "packagesPath": "C:\\Users\\stj067\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\stj067\\Documents\\GitHub\\Liftus\\project\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\serha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stj067\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -284,6 +286,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -300,7 +303,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -323,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

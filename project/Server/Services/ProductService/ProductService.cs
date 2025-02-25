@@ -86,14 +86,14 @@ namespace project.Server.Services.ProductService
             return response;
         }
 
-        public async Task<ServiceResponse<Product>> GetProductAsync(int productId)
+        public async Task<ServiceResponse<ProductProperty>> GetProductAsync(int productId)
         {
-            var response = new ServiceResponse<Product>();
-            Product product = null;
+            var response = new ServiceResponse<ProductProperty>();
+            var product = new ProductProperty();
 
             if (_httpContextAccessor.HttpContext.User.IsInRole("Admin"))
             {
-                product = await _context.Products
+                product.product = await _context.Products
                     .Include(p => p.Variants.Where(v => !v.Deleted))
                     .ThenInclude(v => v.ProductType)
                     .Include(p => p.Images)
@@ -101,12 +101,16 @@ namespace project.Server.Services.ProductService
             }
             else
             {
-                product = await _context.Products
+                product.product = await _context.Products
                     .Include(p => p.Variants.Where(v => v.Visible && !v.Deleted))
                     .ThenInclude(v => v.ProductType)
                     .Include(p => p.Images)
                     .FirstOrDefaultAsync(p => p.Id == productId && !p.Deleted && p.Visible);
             }
+
+            product.keyValues = await _context.ProductProperties
+                .Where(id => id.ProductId == productId)
+                .ToListAsync();
 
             if (product == null)
             {
